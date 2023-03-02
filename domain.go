@@ -13,3 +13,8 @@ type Task struct {
 	Title  string
 	Status TaskStatus
 }
+
+type CmdData struct {
+	Cmd  string
+	Data string
+}
